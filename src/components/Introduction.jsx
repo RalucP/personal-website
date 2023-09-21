@@ -1,6 +1,7 @@
 import Skill from './Skill'
 import extendedLogo from '../assets/extended-logo.svg'
 import flowers from '../assets/flowers.svg'
+import PropTypes from 'prop-types'
 
 export default function Home(props){
 
@@ -19,10 +20,26 @@ export default function Home(props){
                 </div>
                 <img src={flowers} alt="flowers decoration" />
             </div>
-            <div>
+            <section>
                 <h2>How can I help you</h2>
-                
-            </div>
+                <div className='skills'>
+                {
+                    props.data.map((skill) =>{
+                        return (
+                            <Skill 
+                                key={skill.id}
+                                id={skill.id}
+                                name={skill.positionName}
+                                description={skill.description}
+                            />
+                        )
+                    })
+                }
+                </div>
+            </section>
         </section>
     )
+}
+Home.propTypes = {
+    data: PropTypes.array.isRequired
 }

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "positionName": "front-end developer",
+        "description": "The front-end developer lorem ipsum dolor sit amet"
+    },
+    {
+        "id": 2,
+        "positionName": "front-end design",
+        "description": "The front-end developer lorem ipsum dolor sit amet"
+    },
+    {
+        "id": 3,
+        "positionName": "interaction design",
+        "description": "The front-end developer lorem ipsum dolor sit amet"
+    }
+]

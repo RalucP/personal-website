@@ -4,6 +4,7 @@
   --primary-color: #D77353;
   --secondary-color: #FFE5E0;
   --accent-color: #3E6823; 
+  --background-color-secondary: #FFFFFF;
 
   margin: 1em 6em;
 }
@@ -14,6 +15,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--background-color);
+  padding: 0.5em 0em;
+  z-index: 1;
 }
 
 .nav-element{
@@ -56,3 +60,47 @@
 .extended-logo{
   filter: drop-shadow(0em 0em 2em var(--accent-color));
 }
+
+.skills{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4em;
+}
+
+.skill-card{
+  background-color: var(--background-color-secondary);
+  border-radius: 2rem;
+  text-align: center;
+
+  padding: 1rem 2.5rem;
+
+  filter: drop-shadow(0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25));
+}
+
+.skill-card .order{
+  background-image: url("./assets/green-flower.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5rem;
+
+  padding: 2em 0em 1.5em 0em;
+
+  text-align: center;
+}
+
+.skill-card .order .order-text{
+  margin: 0;
+  color: var(--background-color);
+}
+
+.skill-title{
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  margin-top: 0.3em;
+}
+
+.skill-description{
+  font-size: 0.9em;
+}
+
+
