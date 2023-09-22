@@ -1,4 +1,4 @@
-import Skill from './Skill'
+import Skill from '../components/Skill'
 import extendedLogo from '../assets/extended-logo.svg'
 import flowers from '../assets/flowers.svg'
 import PropTypes from 'prop-types'

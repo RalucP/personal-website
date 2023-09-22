@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Introduction from './components/Introduction'
+import Introduction from './pages/Introduction'
 import skillData from './data/position.json'
 
 function App() {
