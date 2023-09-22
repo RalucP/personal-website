@@ -103,4 +103,74 @@
   font-size: 0.9em;
 }
 
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
+}
+
+.project-visuals{
+  display: flex;
+  align-items: baseline;
+}
+
+.project-img{
+  width: 90%;
+}
+
+.phone-ver{
+  width: 47%;
+  margin-left: -6em;
+}
+
+.project-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.labels{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.label{
+  color: var(--accent-color);
+
+  position: relative;
+}
+
+.label:nth-child(2n){
+  color: var(--primary-color);
+}
+
+.label-shadow{
+  width: 100%;
+  height: 0.5em;
+
+  margin-top: -0.5em;
+  border-radius: 10px;
+
+  background-color: var(--accent-color);
+  opacity: 30%;
+
+  position: absolute;
+}
+
+.label:nth-child(2n) .label-shadow{
+  background-color: var(--primary-color);
+}
+
+.label:hover .label-shadow{
+  height: 1em;
+  margin-top: -1em;
+
+  transition: all 0.2s;
+}
+
+.label-text{
+  margin: 0;
+  text-align: center;
+}
 
