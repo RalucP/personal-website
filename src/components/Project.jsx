@@ -1,20 +1,44 @@
-import tendertime from "../assets/projects/tendertime.png"
-import tendertimePhone from "../assets/projects/tendertime-phone.png"
+import PropTypes from 'prop-types'
 import Label from "../components/Label"
 
-export default function Project(){
-    return(
-        <a className="project" href="https://tendertime.uni.mau.se" target="blank">
-          <div className="project-visuals">
-            <img src={tendertime} alt="tender time desktop version" className="project-img" />
-            <img src={tendertimePhone} alt="tendertime phone version" className="phone-ver" />
-          </div> 
-          <h3 className="project-title">Tender Time</h3>
-          <div className="labels">
-            <Label />
-            <Label />
-            <Label />
-          </div>
-        </a>
+export default function Project(props){
+
+  function renderContent(){
+    return (
+      <div className="project">
+        <div className="project-visuals">
+          {props.desktopImage && <img src={props.desktopImage} alt="desktop image" className="project-img" />}
+          {props.phoneImage && <img src={props.phoneImage} alt="phone image" className="phone-ver" />}
+          {console.log(props.phoneImage)}
+        </div> 
+        <h3 className="project-title">{props.title}</h3>
+        <div className="labels">
+          {
+            props.labels.map(label => {
+              return (
+                <Label 
+                  key={label.key}
+                  text={label.text}
+                />
+              )
+            })
+          }
+        </div>
+      </div>
     )
+  }
+
+  return(
+    props.source ? 
+    <a href={props.source} target="blank">
+      {renderContent()}
+    </a> : renderContent()
+  )
+}
+Project.propTypes = {
+  title: PropTypes.string.isRequired,
+  source: PropTypes.string,
+  desktopImage: PropTypes.string.isRequired,
+  phoneImage: PropTypes.string,
+  labels: PropTypes.array.isRequired
 }

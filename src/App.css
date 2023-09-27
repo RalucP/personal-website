@@ -121,6 +121,8 @@
 
   border-radius: 2em;
 
+  object-fit: cover;
+
   transform: rotate(-0.1rad);
   transition: all 0.5s ease-in-out;
 }
@@ -133,6 +135,8 @@
   border: 0.2em solid var(--accent-color);
   margin-left: -2em;
 
+  object-fit: cover;
+  
   transform: rotate(0.2rad);
   transition: all 0.5s ease-in-out;
 }

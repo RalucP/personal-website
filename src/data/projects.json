@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "projectTitle": "Tender Time",
+        "labels": [
+            {
+                "key": 0,
+                "text": "HTML5"
+            },
+            {
+                "key": 1,
+                "text": "CSS3"
+            },
+            {
+                "key": 3,
+                "text": "JavaScript"
+            },
+            {
+                "key": 4,
+                "text": "Responsive"
+            }
+        ],
+        "desktopVer": "src/assets/projects/tendertime.png",
+        "phoneVer": "src/assets/projects/tendertime-phone.png",
+        "source": "https://tendertime.uni.mau.se"
+    },
+    {
+        "id": 2,
+        "projectTitle": "Poetry book",
+        "labels": [
+            {
+                "key": 0,
+                "text": "HTML5"
+            },
+            {
+                "key": 1,
+                "text": "CSS3"
+            },
+            {
+                "key": 3,
+                "text": "JavaScript"
+            },
+            {
+                "key": 4,
+                "text": "Scroll-based"
+            },
+            {
+                "key": 5,
+                "text": "Figma"
+            },
+            {
+                "key": 6,
+                "text": "Responsive"
+            }
+        ],
+        "desktopVer": "src/assets/projects/poetrybook.png",
+        "phoneVer": "src/assets/projects/poetrybook-phone.png",
+        "source": "https://emilia-nicoara-poetry.netlify.app/"
+    },
+    {
+        "id": 3,
+        "projectTitle": "Password generator",
+        "labels": [
+            {
+                "key": 0,
+                "text": "HTML5"
+            },
+            {
+                "key": 1,
+                "text": "CSS3"
+            },
+            {
+                "key": 3,
+                "text": "JavaScript"
+            },
+            {
+                "key": 4,
+                "text": "Figma"
+            }
+        ],
+        "desktopVer": "src/assets/projects/passwordGenerator.png"
+    }
+]
