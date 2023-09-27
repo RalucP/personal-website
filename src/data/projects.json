@@ -20,8 +20,8 @@
                 "text": "Responsive"
             }
         ],
-        "desktopVer": "tendertime.png",
-        "phoneVer": "tendertime-phone.png",
+        "desktopVer": "https://imgtr.ee/images/2023/09/27/270a3b01a706e96054363daf9b234e1e.png",
+        "phoneVer": "https://imgtr.ee/images/2023/09/27/ab7f6d41bb1ad88c6115b40f81243d8c.png",
         "source": "https://tendertime.uni.mau.se"
     },
     {
@@ -53,8 +53,8 @@
                 "text": "Responsive"
             }
         ],
-        "desktopVer": "poetrybook.png",
-        "phoneVer": "poetrybook-phone.png",
+        "desktopVer": "https://imgtr.ee/images/2023/09/27/0d7032ab731b43a1a74f67e734accf81.png",
+        "phoneVer": "https://imgtr.ee/images/2023/09/27/01a861ab58f306d7af8117c99ee62812.png",
         "source": "https://emilia-nicoara-poetry.netlify.app/"
     },
     {
@@ -78,6 +78,6 @@
                 "text": "Figma"
             }
         ],
-        "desktopVer": "passwordGenerator.png"
+        "desktopVer": "https://imgtr.ee/images/2023/09/27/b1c8df176b7b86b32939d8a143ca4672.png"
     }
 ]
