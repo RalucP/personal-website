@@ -9,7 +9,6 @@ export default function Project(props){
         <div className="project-visuals">
           {props.desktopImage && <img src={props.desktopImage} alt="desktop image" className="project-img" />}
           {props.phoneImage && <img src={props.phoneImage} alt="phone image" className="phone-ver" />}
-          {console.log(props.phoneImage)}
         </div> 
         <h3 className="project-title">{props.title}</h3>
         <div className="labels">

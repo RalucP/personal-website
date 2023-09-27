@@ -20,8 +20,8 @@
                 "text": "Responsive"
             }
         ],
-        "desktopVer": "src/assets/projects/tendertime.png",
-        "phoneVer": "src/assets/projects/tendertime-phone.png",
+        "desktopVer": "../assets/tendertime.png",
+        "phoneVer": "../assets/tendertime-phone.png",
         "source": "https://tendertime.uni.mau.se"
     },
     {
@@ -53,8 +53,8 @@
                 "text": "Responsive"
             }
         ],
-        "desktopVer": "src/assets/projects/poetrybook.png",
-        "phoneVer": "src/assets/projects/poetrybook-phone.png",
+        "desktopVer": "../assets/poetrybook.png",
+        "phoneVer": "../assets/poetrybook-phone.png",
         "source": "https://emilia-nicoara-poetry.netlify.app/"
     },
     {
@@ -78,6 +78,6 @@
                 "text": "Figma"
             }
         ],
-        "desktopVer": "src/assets/projects/passwordGenerator.png"
+        "desktopVer": "../assets/passwordGenerator.png"
     }
 ]
