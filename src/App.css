@@ -112,16 +112,39 @@
 .project-visuals{
   display: flex;
   align-items: baseline;
+  justify-content: center;
 }
 
 .project-img{
-  width: 90%;
+  width: 80%;
+  aspect-ratio: 16/9;
+
+  border-radius: 2em;
+
+  transform: rotate(-0.1rad);
+  transition: all 0.5s ease-in-out;
 }
 
 .phone-ver{
-  width: 47%;
-  margin-left: -6em;
+  width: 22%;
+  aspect-ratio: 9/19.5;
+
+  border-radius: 1em;
+  border: 0.2em solid var(--accent-color);
+  margin-left: -2em;
+
+  transform: rotate(0.2rad);
+  transition: all 0.5s ease-in-out;
 }
+
+.project-img:hover{
+  transform: rotate(-0.2rad);
+}
+
+.phone-ver:hover{
+  transform: rotate(0.3rad);
+}
+
 
 .project-title{
   text-align: center;
@@ -172,5 +195,6 @@
 .label-text{
   margin: 0;
   text-align: center;
+  font-size: 0.9em;
 }
 
