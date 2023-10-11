@@ -202,3 +202,51 @@
   font-size: 0.9em;
 }
 
+.about-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.about-container .about-text{
+  font-size: .9em;
+}
+
+.about-container .about-image{
+  position: relative;
+}
+
+.about-container .resume{
+  display: block;
+  height: 3.5em;
+
+  position: absolute;
+  right: 2.5em;
+  bottom: 2em;
+}
+
+.resume::before{
+  transition: all 0.5s;
+}
+
+.resume::before{
+  content: url("./assets/flower-green.svg");
+
+  position: absolute;
+  left: -2em;
+  top: -2em;
+
+  opacity: 0.15;
+}
+
+.resume:hover::before{
+  transform: rotate(-45deg);
+}
+
+.resume img{
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
