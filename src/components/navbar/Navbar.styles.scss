@@ -1,0 +1,29 @@
+.navbar{
+  width: 40%;
+  padding: .7em;
+  margin: auto;
+  top: 15px;
+  position: sticky;
+
+  border: .3px solid var(--text-color-10);
+  border-radius: 100px;
+  background-color: var(--text-color-10);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .nav-element{
+    padding: .7em 2em;
+    border-radius: 100px;
+
+    &.selected{
+      background-color: var(--text-color-10);
+    }
+    
+    &:hover {
+      background-color: var(--text-color-10);
+    }
+  }
+}

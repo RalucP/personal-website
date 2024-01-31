@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "value": "HTML"
+  },
+  {
+    "id": 2,
+    "value": "CSS"
+  },
+  {
+    "id": 3,
+    "value": "JavaScript"
+  },
+  {
+    "id": 4,
+    "value": "React"
+  },
+  {
+    "id": 5,
+    "value": "Redux"
+  },
+  {
+    "id": 6,
+    "value": "Redux Saga"
+  },
+  {
+    "id": 7,
+    "value": "Redux Thunk"
+  },
+  {
+    "id": 8,
+    "value": "Redux Toolkit"
+  },
+  {
+    "id": 9,
+    "value": "TypeScript"
+  },
+  {
+    "id": 10,
+    "value": "SASS"
+  },
+  {
+    "id": 11,
+    "value": "Stripe"
+  },
+  {
+    "id": 12,
+    "value": "Tailwind"
+  },
+  {
+    "id": 13,
+    "value": "Jest"
+  },
+  {
+    "id": 14,
+    "value": "Vite"
+  },
+  {
+    "id": 15,
+    "value": "Progressive Web App (PWA)"
+  },
+  {
+    "id": 16,
+    "value": "Prototyping"
+  }
+]

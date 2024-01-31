@@ -1,0 +1,13 @@
+.skill{
+  padding: .3em 1em;
+
+  background-color: var(--accent-color-20);
+  border: 2px solid var(--accent-color);
+  border-radius: 5px;
+
+  cursor: default;
+
+  &:hover{
+    background-color: var(--accent-color-40);
+  }
+}
