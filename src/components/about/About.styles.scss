@@ -1,0 +1,19 @@
+.about-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5em;
+
+  & .about-description{
+    font-size: 1em;
+    font-weight: 500;
+
+    & .bold{
+      font-weight: bolder;
+    }
+
+    & .italic{
+      font-style: italic;
+    }
+  }
+}
