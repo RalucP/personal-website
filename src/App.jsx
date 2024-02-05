@@ -1,7 +1,9 @@
 import './App.scss'
+
 import Navbar from './components/Navbar/Navbar'
-import About from './components/about/About'
 import Home from './components/home/Home'
+import About from './components/about/About'
+import Footer from './components/footer/Footer'
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Footer />
     </>
   )
 }
