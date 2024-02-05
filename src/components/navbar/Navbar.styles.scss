@@ -1,5 +1,5 @@
 .navbar{
-  width: 40%;
+  width: 45%;
   padding: .7em;
   margin: auto;
   top: 15px;
@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 5px;
 
   .nav-element{
     padding: .7em 2em;
