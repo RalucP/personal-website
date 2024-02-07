@@ -8,7 +8,7 @@ const Contact = () => {
 
   const copyToClipboard = async (value) => {
     try{
-      navigator.clipboard.writeText(value);
+      await navigator.clipboard.writeText(value);
       alert('Copied to clipboard successfully!');
     }
     catch(error){
