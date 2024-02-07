@@ -11,7 +11,7 @@ const Home = () => {
       <div className='intro-wrapper'>
         <div className='intro-flex'>
           <h1 className='intro-text'>I am</h1>
-          <img src={ExtendedLogo} className='intro-name'/>
+          <img src={ExtendedLogo} alt='Raluca Parvan' className='intro-name'/>
         </div>
         <h1>a Front-end developer</h1>
         <div className='skills-flex'>
