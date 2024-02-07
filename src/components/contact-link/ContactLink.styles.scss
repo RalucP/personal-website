@@ -1,0 +1,22 @@
+.contact-link{
+  background-color: var(--text-color-10);
+  padding: 1.2em;
+  border-radius: 10px;
+  min-height: 7em;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+
+  &:hover{
+    background-color: var(--text-color-20);
+  }
+
+  & .contact-link-icon{
+    margin: auto;
+    height: 76px;
+    aspect-ratio: 1/1;
+  }
+}
