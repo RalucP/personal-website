@@ -3,6 +3,7 @@
 :root {
   --text-color: #FAFFFA;
   --text-color-10: rgba(250, 255, 250, 0.1);
+  --text-color-20: rgba(250, 255, 250, 0.2);
   --background-color: #010E01;
   --accent-color: #AE4A29; 
   --accent-color-20: rgba(174, 74, 41, 0.2); 
@@ -72,6 +73,14 @@ h2{
   text-align: center;
 }
 
+button{
+  border: none;
+  font-weight: 500;
+  font-size: 1em;
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+}
+
 img{
   user-select: none;
   -webkit-user-select: none;
@@ -82,6 +91,7 @@ img{
   :root {
     --text-color: #050002;
     --text-color-10: rgba(5, 0, 2, .1);
+    --text-color-20: rgba(5, 0, 2, .2);
     --background-color: #FEF5F1;
     --accent-color: #D67351; 
     --accent-color-20: rgba(214, 115, 81, .2); 
