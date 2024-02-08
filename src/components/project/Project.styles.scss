@@ -1,0 +1,54 @@
+.project-wrapper{
+  
+  & .title{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+  
+  & .project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2em;
+    background-color: var(--text-color-10);
+    border-radius:  0 0 25px 25px;
+    border: 1px solid var(--text-color);
+
+    & .project-tech{
+      width: 100%;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .2em .3em;
+
+      .skill{
+        font-size: .7em;
+      }
+    }
+
+    & .project-links{
+      width: 100%;
+
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+
+      & .contact-link{
+        background-color: transparent;
+        min-height: 20px;
+        padding: .3em;
+
+        &:hover{
+          opacity: .7;
+        }
+
+        & .contact-link-icon{
+          height: 20px;
+        }
+      }
+    }
+  }
+}
