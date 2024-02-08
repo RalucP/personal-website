@@ -5,6 +5,7 @@ import GitHub from '../../assets/icons/github-icon.svg'
 import Email from '../../assets/icons/email-icon.svg'
 import Phone from '../../assets/icons/phone-icon.svg'
 import Download from '../../assets/icons/download-icon.svg'
+import Link from '../../assets/icons/link-icon.svg'
 
 import './ContactLink.styles.scss'
 
@@ -13,7 +14,8 @@ export const CONTACT_LINK_ICON_TYPE = {
   EMAIL: Email,
   LINKEDIN: LinkedIn,
   PHONE: Phone,
-  DOWNLOAD: Download
+  DOWNLOAD: Download,
+  LINK: Link
 }
 
 export const CONTACT_LINK_TYPE = {
