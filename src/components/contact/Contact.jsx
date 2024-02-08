@@ -1,4 +1,4 @@
-import ContactLink, { CONTACT_LINK_ICON_TYPE, CONTACT_LINK_TYPE } from "../contact-link/ContactLink";
+import ActionElement, { ACTION_ELEMENT_ICON_TYPE, ACTION_ELEMENT_TYPE } from "../action-element/ActionElement";
 
 import CV from '../../assets/Raluca_Parvan_Resume.pdf';
 
@@ -20,30 +20,30 @@ const Contact = () => {
     <section id="contact" className="contact-wrapper">
       <h1>Contact me</h1>
       <div className="contact-links-flex">
-        <ContactLink 
-          iconType={CONTACT_LINK_ICON_TYPE.EMAIL}
-          type={CONTACT_LINK_TYPE.BUTTON}
+        <ActionElement 
+          iconType={ACTION_ELEMENT_ICON_TYPE.EMAIL}
+          type={ACTION_ELEMENT_TYPE.BUTTON}
           onClick={() => copyToClipboard('parvanraluca0@gmail.com')}
         >
           parvanraluca0@gmail.com
-        </ContactLink>
-        <ContactLink 
-          iconType={CONTACT_LINK_ICON_TYPE.DOWNLOAD}
-          type={CONTACT_LINK_TYPE.ANCHOR}
+        </ActionElement>
+        <ActionElement 
+          iconType={ACTION_ELEMENT_ICON_TYPE.DOWNLOAD}
+          type={ACTION_ELEMENT_TYPE.ANCHOR}
           href={CV}
           target='_blank'
         >
           Download my CV
-        </ContactLink>
-        <ContactLink 
-          iconType={CONTACT_LINK_ICON_TYPE.GITHUB} 
-          type={CONTACT_LINK_TYPE.ANCHOR}
+        </ActionElement>
+        <ActionElement 
+          iconType={ACTION_ELEMENT_ICON_TYPE.GITHUB} 
+          type={ACTION_ELEMENT_TYPE.ANCHOR}
           href='https://github.com/RalucP' 
           target='_blank'
         />
-        <ContactLink 
-          iconType={CONTACT_LINK_ICON_TYPE.LINKEDIN} 
-          type={CONTACT_LINK_TYPE.ANCHOR}
+        <ActionElement 
+          iconType={ACTION_ELEMENT_ICON_TYPE.LINKEDIN} 
+          type={ACTION_ELEMENT_TYPE.ANCHOR}
           href='https://www.linkedin.com/in/raluca-parvan/' 
           target='_blank'
         />

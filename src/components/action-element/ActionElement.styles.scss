@@ -1,4 +1,4 @@
-.contact-link{
+.action-element{
   background-color: var(--text-color-10);
   padding: 1.2em;
   border-radius: 10px;
@@ -14,7 +14,7 @@
     background-color: var(--text-color-20);
   }
 
-  & .contact-link-icon{
+  & .action-element-icon{
     margin: auto;
     height: 76px;
     aspect-ratio: 1/1;

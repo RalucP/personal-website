@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Label from '../label/Label';
-import ContactLink, { CONTACT_LINK_ICON_TYPE, CONTACT_LINK_TYPE } from '../contact-link/ContactLink'
+import ActionElement, { ACTION_ELEMENT_ICON_TYPE, ACTION_ELEMENT_TYPE } from '../action-element/ActionElement'
 
 import './Project.styles.scss';
 
@@ -20,8 +20,8 @@ const Project = ({ title, technologies, imageUrl, github, liveLink }) => {
           }
         </div>
         <div className='project-links'>
-          {liveLink && <ContactLink iconType={CONTACT_LINK_ICON_TYPE.LINK} type={CONTACT_LINK_TYPE.ANCHOR} href={liveLink} />}
-          <ContactLink iconType={CONTACT_LINK_ICON_TYPE.GITHUB} type={CONTACT_LINK_TYPE.ANCHOR} href={github} />
+          {liveLink && <ActionElement iconType={ACTION_ELEMENT_ICON_TYPE.LINK} type={ACTION_ELEMENT_TYPE.ANCHOR} href={liveLink} />}
+          <ActionElement iconType={ACTION_ELEMENT_ICON_TYPE.GITHUB} type={ACTION_ELEMENT_TYPE.ANCHOR} href={github} />
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@ const Project = ({ title, technologies, imageUrl, github, liveLink }) => {
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   technologies: PropTypes.array.isRequired,
-  imageUrl: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string,
   github: PropTypes.string.isRequired,
   liveLink: PropTypes.string,
 }

@@ -7,9 +7,9 @@ import Phone from '../../assets/icons/phone-icon.svg'
 import Download from '../../assets/icons/download-icon.svg'
 import Link from '../../assets/icons/link-icon.svg'
 
-import './ContactLink.styles.scss'
+import './ActionElement.styles.scss'
 
-export const CONTACT_LINK_ICON_TYPE = {
+export const ACTION_ELEMENT_ICON_TYPE = {
   GITHUB: GitHub,
   EMAIL: Email,
   LINKEDIN: LinkedIn,
@@ -18,7 +18,7 @@ export const CONTACT_LINK_ICON_TYPE = {
   LINK: Link
 }
 
-export const CONTACT_LINK_TYPE = {
+export const ACTION_ELEMENT_TYPE = {
   BUTTON: 'button',
   ANCHOR: 'anchor'
 }
@@ -27,12 +27,12 @@ const ContactLink = ({ children, iconType, type, ...otherProps }) => {
   return (
     <>
     {
-      type === CONTACT_LINK_TYPE.ANCHOR ? <a className='contact-link' {...otherProps}>
-        <img src={iconType} alt='icon' className='contact-link-icon' />
+      type === ACTION_ELEMENT_TYPE.ANCHOR ? <a className='action-element' {...otherProps}>
+        <img src={iconType} alt='icon' className='action-element-icon' />
         {children}
       </a> : 
-      <button className='contact-link' {...otherProps}>
-        <img src={iconType} alt='icon' className='contact-link-icon' />
+      <button className='action-element' {...otherProps}>
+        <img src={iconType} alt='icon' className='action-element-icon' />
         {children}
       </button>
     }
