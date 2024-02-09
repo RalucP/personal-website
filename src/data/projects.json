@@ -49,7 +49,7 @@
     ],
     "github": "https://github.com/RalucP/glw-care-app",
     "link": "https://glw-care.netlify.app",
-    "imgUrl": null
+    "imgUrl": "https://iili.io/J1li7ff.png"
   },
   {
     "id": 2,
@@ -73,7 +73,7 @@
     ],
     "github": "https://github.com/RalucP/books-rolodex",
     "link": null,
-    "imgUrl": null
+    "imgUrl": "https://iili.io/J1liRiG.png"
   },
   {
     "id": 3,
@@ -97,6 +97,6 @@
     ],
     "github": "https://github.com/RalucP/password-generator",
     "link": "https://ralucp.github.io/password-generator/",
-    "imgUrl": null
+    "imgUrl": "https://iili.io/J1liAVs.png"
   }
 ]

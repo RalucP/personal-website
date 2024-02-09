@@ -7,7 +7,7 @@ import './Project.styles.scss';
 const Project = ({ title, technologies, imageUrl, github, liveLink }) => {
   return (
     <div className='project-wrapper'>
-      <img src={imageUrl} alt={`${title} presentation image`} />
+      <img src={imageUrl} alt={`${title} presentation image`} className='project-image' />
       <div className='project-details'>
         <h3 className='title'>{title}</h3>
         <div className='project-tech'>
@@ -20,8 +20,20 @@ const Project = ({ title, technologies, imageUrl, github, liveLink }) => {
           }
         </div>
         <div className='project-links'>
-          {liveLink && <ActionElement iconType={ACTION_ELEMENT_ICON_TYPE.LINK} type={ACTION_ELEMENT_TYPE.ANCHOR} href={liveLink} />}
-          <ActionElement iconType={ACTION_ELEMENT_ICON_TYPE.GITHUB} type={ACTION_ELEMENT_TYPE.ANCHOR} href={github} />
+          {
+            liveLink && <ActionElement 
+                iconType={ACTION_ELEMENT_ICON_TYPE.LINK} 
+                type={ACTION_ELEMENT_TYPE.ANCHOR} 
+                href={liveLink} 
+                target="_blank" 
+              />
+          }
+          <ActionElement 
+            iconType={ACTION_ELEMENT_ICON_TYPE.GITHUB} 
+            type={ACTION_ELEMENT_TYPE.ANCHOR} 
+            href={github}  
+            target="_blank"
+          />
         </div>
       </div>
     </div>
