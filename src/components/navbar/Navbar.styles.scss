@@ -37,7 +37,21 @@
     width: 90%;
   }
 
-  @media screen and (max-width: 650px){
-    width: 100%;
+  @media screen and (max-width: 540px){
+    padding: .5em;
+
+    & .nav-element{
+      padding: .8em 1.5em;
+      font-size: .7em;
+    }
+  }
+
+  @media screen and (max-width: 300px){
+    padding: .5em;
+
+    & .nav-element{
+      padding: .8em 1.2em;
+      font-size: .5em;
+    }
   }
 }
