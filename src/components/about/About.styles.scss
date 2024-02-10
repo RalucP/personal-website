@@ -16,4 +16,45 @@
       font-style: italic;
     }
   }
+
+  @media screen and (max-width: 1300px) {
+    & .about-image{
+      width: 35%;
+      object-fit: cover;
+    }
+
+    & .about-description{
+      font-size: .9em;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    gap: 2em;
+
+    & .about-image{
+      width: 35%;
+      object-fit: cover;
+    }
+
+    & .about-description{
+      font-size: .7em;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    flex-direction: column;
+
+    & .about-image{
+      width: 85%;
+      object-fit: cover;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+
+    & .about-image{
+      width: 65%;
+      object-fit: cover;
+    }
+  }
 }
