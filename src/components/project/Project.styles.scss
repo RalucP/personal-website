@@ -22,6 +22,7 @@
   & .project-details{
     display: flex;
     flex-direction: column;
+    gap: 1em;
     align-items: center;
 
     padding: 2em;
@@ -60,6 +61,23 @@
 
         & .action-element-icon{
           height: 20px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    
+    & .title{
+      font-size: 1em;
+    }
+
+    & .project-details{
+
+      & .project-tech{
+
+        & .skill{
+          font-size: .5em;
         }
       }
     }

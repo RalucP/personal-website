@@ -4,5 +4,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4em 3em;
+
+    @media screen and (max-width: 1050px){
+      gap: 2em 1.2em;
+    }
+
+    @media screen and (max-width: 800px){
+      grid-template-columns: 1fr;
+      gap: 1.5em;
+    }
   }
 }
