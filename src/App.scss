@@ -1,3 +1,15 @@
 #root{
   padding: 0em 10em;
+
+  @media screen and (max-width: 1050px){
+    padding: 0 5em;
+  }
+  
+  @media screen and (max-width: 850px) {
+    padding: 0 3em;
+  }
+
+  @media screen and (max-width: 650px) {
+    padding: 0 .5em;
+  }
 }

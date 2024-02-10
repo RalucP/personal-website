@@ -1,5 +1,5 @@
 .navbar{
-  width: 45%;
+  width: 52%;
   padding: .7em;
   margin: auto;
   top: 15px;
@@ -27,5 +27,17 @@
     &:hover {
       background-color: var(--text-color-10);
     }
+  }
+
+  @media screen and (max-width: 1050px){
+    width: 70%;
+  }
+  
+  @media screen and (max-width: 850px){
+    width: 90%;
+  }
+
+  @media screen and (max-width: 650px){
+    width: 100%;
   }
 }
