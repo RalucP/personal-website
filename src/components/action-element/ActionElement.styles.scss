@@ -19,4 +19,12 @@
     height: 76px;
     aspect-ratio: 1/1;
   }
+
+  @media screen and (max-width: 450px){
+    font-size: .65em;
+
+    & .action-element-icon{
+      height: 55px;
+    }
+  }
 }
